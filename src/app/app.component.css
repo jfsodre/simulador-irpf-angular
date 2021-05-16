@@ -1,0 +1,26 @@
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .mainContent {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 30px;
+    width: 50%;
+  }
+  
+  .sideContent {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 30px;
+    width: 50%;
+  }
+  

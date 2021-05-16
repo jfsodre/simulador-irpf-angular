@@ -1,0 +1,26 @@
+<div>
+    <app-labeled-input
+      label="Salário bruto:"
+      [customId]="idInputSalarioBruto"
+      [currency]="false"
+      [disabled]="calculandoDados"
+      (inputValueChanged)="changeValue($event)"
+    ></app-labeled-input>
+ 
+    <app-labeled-input
+      label="Base IRPF:"
+      [value]="salario.baseIRPF"
+    ></app-labeled-input>
+  
+    <app-labeled-input
+      label="Desconto IRPF:"
+      [value]="salario.descontoIRPF"
+    ></app-labeled-input>
+  
+    <app-labeled-input
+      label="Salário líquido:"
+      [value]="salario.salarioLiquido"
+    ></app-labeled-input>
+  
+  </div>
+  

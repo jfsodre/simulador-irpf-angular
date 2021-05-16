@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "simulador-irpf"
+    }
+  },
+  "defaultProject": "simulador-irpf",
+  "cli": {
+    "analytics": false
+  }
 }

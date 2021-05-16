@@ -1,0 +1,13 @@
+<label>
+    <span>{{ label }}</span>
+    <input
+      [id]="customId"
+      [disabled]="disabled"
+      [type]="!!currency ? 'text' : 'number'"
+      [value]="formatValue()"
+      (input)="changeInputValue($event.target.value)"
+      min="0"
+      step="1"
+    >
+  </label>
+  
